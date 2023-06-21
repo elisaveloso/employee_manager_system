@@ -4,22 +4,11 @@
 #include "Pessoa.h"
 
 class Chefe : public Pessoa{
-private:
-    string usuario;
-    string senha;
-
+// será necessário algum atributo do chefe??
 public:
-    Chefe(string, string, string);
+    Chefe(string nome, string usuario, string senha);
     virtual ~Chefe();
-
-    string getUsuario() const;
-    void setUsuario(string usuario);
-
-    string getSenha() const;
-    void setSenha(string senha);
-
-    bool verificarAutenticacao(string usuario, string senha);
-
+    //void abrirMenuChefe(bool chefeAutenticado);
 };
 
 #endif
