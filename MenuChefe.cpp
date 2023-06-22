@@ -57,3 +57,8 @@ void MenuChefe::listarFuncionarios(const vector<Funcionario*> &funcionarios){
 
 
 }
+
+void MenuChefe::checarPonto(Funcionario &funcionario){
+    // exibir hrs trabalhadas, extras e pendentes de um funcionario
+}
+

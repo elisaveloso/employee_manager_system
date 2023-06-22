@@ -9,9 +9,10 @@ using namespace std;
 
 class MenuChefe {
 public:
-    Funcionario* cadastrarFuncionario();
+    Funcionario* MenuChefe::cadastrarFuncionario();
     void MenuChefe::listarFuncionarios(const vector<Funcionario*> &funcionarios);
-    //void usarFuncionario(Funcionario &funcionario);
+    void MenuChefe::checarPonto(Funcionario &funcionario);
+
 };
 
 #endif
